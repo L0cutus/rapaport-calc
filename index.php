@@ -48,22 +48,6 @@
                     <input type="number" class="form-control" name="carati" id="carati">
                 </div>
                 <div>
-                    <label for="purezza"><strong>Purezza</strong></label>
-                    <select class="form-control" name="purezza" id="purezza">
-                        <option value="IF">IF</option>
-                        <option value="VVS1">VVS1</option>
-                        <option value="VVS2">VVS2</option>
-                        <option value="VS1">VS1</option>
-                        <option value="VS2">VS2</option>
-                        <option value="SI1">SI1</option>
-                        <option value="SI2">SI2</option>
-                        <option value="SI3">SI3</option>
-                        <option value="I1">I1</option>
-                        <option value="I2">I2</option>
-                        <option value="I3">I3</option>
-                    </select>
-                </div>
-                <div>
                     <label for="colore"><strong>Colore</strong></label>
                     <select class="form-control browser-default" name="colore" id="colore">
                         <option value="D">D</option>
@@ -77,6 +61,22 @@
                         <option value="L">L</option>
                         <option value="M">M</option>
                         <option value="N">N</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="purezza"><strong>Purezza</strong></label>
+                    <select class="form-control" name="purezza" id="purezza">
+                        <option value="IF">IF</option>
+                        <option value="VVS1">VVS1</option>
+                        <option value="VVS2">VVS2</option>
+                        <option value="VS1">VS1</option>
+                        <option value="VS2">VS2</option>
+                        <option value="SI1">SI1</option>
+                        <option value="SI2">SI2</option>
+                        <option value="SI3">SI3</option>
+                        <option value="I1">I1</option>
+                        <option value="I2">I2</option>
+                        <option value="I3">I3</option>
                     </select>
                 </div>
                 <label for="dollaro" class="disabled"><strong>Cambio Dollaro - Euro</strong></label>
